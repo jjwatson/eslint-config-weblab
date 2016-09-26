@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-weblab",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Cambridge Assessment weblab",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm-run-all --parallel lint find-new-rules",
+    "find-new-rules": "npm-run-all --parallel find-new-rules:*",
+    "find-new-rules:main": "eslint-find-rules --unused ./index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "dependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "5.0.3",
+    "eslint-find-rules": "1.13.0",
+    "eslint-plugin-import": "^1.14.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "3.0.0",
+    "semantic-release": "4.3.5"
+  },
+  "peerDependencies": {
+    "eslint": "^3.2.0"
+  },
+  "author": "Cambridge Assessment",
+  "license": "ISC"
+}

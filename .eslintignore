@@ -1,0 +1,7 @@
+# node_modules ignored by default
+
+node_modules
+**/node_modules/**
+test
+dist
+artifact
