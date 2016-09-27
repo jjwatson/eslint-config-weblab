@@ -16,7 +16,7 @@ module.exports = {
     "no-unused-vars": ["warn"],
     "no-use-before-define": ["error", { "functions": false }],
     "no-var": ["error"],
-    "one-var": ["error"],
+    "one-var": ["error", { "initialized": "never" }],
     "padded-blocks": 0,
     "prefer-arrow-callback": ["error"],
     "require-jsdoc": ["warn", {
