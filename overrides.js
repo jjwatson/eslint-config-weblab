@@ -3,6 +3,7 @@ module.exports = {
     "es6": true,
     "browser": false
   },
+  "extends": "airbnb-base",
   "rules": {
     "brace-style": ["error", "1tbs"],
     "comma-dangle": ["error", "never"],
@@ -30,4 +31,4 @@ module.exports = {
     "strict": "off",
     "valid-jsdoc": ["error"]
   }
-}
+};
