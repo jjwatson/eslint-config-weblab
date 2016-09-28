@@ -11,7 +11,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
-    "eslint": "^3.4.0",
+    "eslint": "^3.6.0",
     "eslint-config-airbnb-base": "5.0.3",
     "eslint-find-rules": "1.13.0",
     "eslint-plugin-import": "^1.14.0"
@@ -21,7 +21,8 @@
     "semantic-release": "4.3.5"
   },
   "peerDependencies": {
-    "eslint": "^3.2.0"
+    "eslint": "^3.6.0",
+    "eslint-plugin-import": "^1.14.0"
   },
   "author": "Cambridge Assessment",
   "license": "ISC"
