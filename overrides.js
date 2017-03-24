@@ -5,6 +5,7 @@ module.exports = {
   },
   "extends": "airbnb-base",
   "rules": {
+    "linebreak-style": 0, // ensure compatibility with Windows systems ignoring LF/CRLF end of lines
     "brace-style": ["error", "1tbs"],
     "comma-dangle": ["error", "never"],
     "func-names": 0,

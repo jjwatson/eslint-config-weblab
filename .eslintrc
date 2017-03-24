@@ -4,7 +4,6 @@
     "quotes": [2, "double"], // we may need to copy this to an actual .eslintrc
     "quote-props": 0, // same reason...
     "no-magic-numbers": 0, // because rules are 0, 1, 2
-    "indent": ["error", 2],
-    "linebreak-style": 0 // ensure compatibility with Windows systems ignoring LF/CRLF end of lines
+    "indent": ["error", 2]
   }
 }
